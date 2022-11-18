@@ -7,4 +7,4 @@ push:
 	git status
 	git add .
 	git commit -m "update submodule"
-	git push
+	git push origin HEAD:main
