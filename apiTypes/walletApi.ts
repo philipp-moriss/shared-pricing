@@ -1,13 +1,17 @@
-export type WalletApi = string;
+export type Wallet = {
+    icon: string;
+    name: string;
+    balance: number;
+    currency: string;
+}
 
-export type FrontEnd = 'node';
 
-export type FrontEnd2 = 'node';
+export type addWalletDto = {
+    wallet : Wallet,
+}
 
-export type FrontEnd3 = 'node';
 
-export type BackEnd = 'front';
-
-export type BackEnd2 = 'front';
-
-export type BackEnd3 = 'front';
+export type updateWalletDto = {
+    walletId: string,
+    wallet : Wallet,
+}
