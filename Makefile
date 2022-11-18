@@ -1,7 +1,8 @@
 
 update_submodule:
 	git submodule update --remote --merge
-
+	git checkout main
+	git pull
 push:
 	git pull
 	git status
