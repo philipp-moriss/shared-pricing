@@ -1,1 +1,3 @@
-type WalletApi = string;
+export type WalletApi = string;
+
+export type FrontEnd = 'node';
